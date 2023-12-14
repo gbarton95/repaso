@@ -111,12 +111,13 @@ footer {
 table {
     margin:auto;
     border: 1px solid black;
-    /*border-collapse: collapse;*/
+    border-collapse: collapse;
 }
-tr {background-color:cyan;}
+tr {background-color:white;}
+tr:hover{background-color: aqua;}
 tr.par {background-color:pink;}
 tr.impar {background-color:orange;}
-td,th {padding:10px;}
+td,th {padding:10px; border: 1px solid black;}
 
 /********************************************************************/
 
